@@ -6,9 +6,9 @@ export default function Home() {
       {/* left side */}
       <div className="lg:w-1/2 relative z-10 flex flex-col justify-center px-10 lg:px-20 py-20 lg:py-0 text-left">
         <h2 className="inter text-4xl mb-3 font-bold text-gray-800">
-       101 ASHISH SHRIKANT NEXT  Welcome to Your Next.js App{" "}
+       107 ASHISH SHRIKANT NEXT  Welcome to Your Next.js App{" "}
           <span className="block text-blue-500 text-2xl font-normal">
-            Deployed to DigitalOcean 
+            Deployed to shrikant system 
           </span>
         </h2>
 
@@ -45,6 +45,8 @@ export default function Home() {
         <Image
           src="background.jpg"
           alt="Ocean Image"
+          width='500'
+          height='500'
           className="lg:absolute object-cover lg:inset-y-0 lg:right-0 lg:h-full lg:w-full"
         />
       </div>
